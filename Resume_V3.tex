@@ -1,0 +1,162 @@
+\documentclass{my_cv}
+
+\usepackage[skins]{tcolorbox}
+\usepackage{ragged2e}
+\begin{document}
+
+\begin{minipage}[t]{0.52\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Yash Singh}}}}} % First name
+	
+	%\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Singh}}}}} % Last name
+	
+	\vspace{2pt}
+	
+	{\huge Software Developer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.29\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{8}{Blacksburg, VA, USA}\\
+	\icon{Phone}{8}{(540)-317-0341}\\
+	\icon{At}{8}{\href{mailto:yash1o1@outlook.com}{yash1o1@outlook.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.50\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Globe}{8}{\href{https://yash-1o1/github.io/}{yash-1o1/github.io}}\\
+    \icon{Linkedin}{8}{\href{https://linkedin.com/in/yash1o1}{Yash Singh}}\\
+	\icon{Github}{8}{\href{https://github.com/yash-1o1}{yash-1o1}}\\
+\end{minipage}
+
+\vspace{2pt}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.47\textwidth} % 40% of the page width for the introduction text
+	%\cvsect{Who Am I?}
+	\vspace{0.5cm}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+\section{\faGraduationCap}{WHO AM I?}
+{A detailed-oriented, responsible individual with a get-it-done on time and high quality product spirit. I also happen to be a good learner and a team player/leader who likes to put his analytical, problem solving and communication skills to get the task done with mind set to start contributing from day one. \textbf{\emph{\href{https://yash-1o1.github.io/}{Visit my website to know more about me!}}}}
+
+\vspace{0.4cm}
+
+\section{\faGraduationCap}{EDUCATION}
+\work{Virginia Tech - 2021}
+{}{Bachelors of Engineering - Computer Engineering}{}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.47\textwidth} % 50% of the page for the skills bar chart
+	%\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{.1cm}
+	\section{\faGraduationCap}{CORE SKILLS}
+	\begin{barchart}{5.5}
+		\baritem{Java}{45}
+		\baritem{C,C++}{80}
+		\baritem{Python}{90}
+		\baritem{Git}{90}
+		\baritem{MATLAB}{80}
+		\baritem{SQL(MYSQL/NOSQL)}{45}
+		\baritem{Photoshop/Illustrator}{90}
+	\end{barchart}
+\end{minipage} 
+
+\vspace{.05cm}
+\begin{multicols}{2}
+\section{\faPencil}{SELECTED PROJECTS}
+\work{Automated Warehouse Robot \newline Aug 2021 - Oct 2021}
+    {Skills used: Python, SolidWorks, CSS, GitHub}%
+    {
+        • Led a team of 4 members to develop a warehouse robot that would automate the process of moving boxes. \newline
+        • Managed the overall functioning and integration of code. \newline
+        • Developed the algorithm for intercommunication of various different components over a MQTT server. \newline
+        • Worked on the developed of the 3+ DOF robotic arm.
+}
+    {}
+
+\work{Fire Hazard Detection System \newline May 2021 - Aug 2021}
+    {Skills used: Python, Arduino, MIT App Inventor, GitHub}%
+    {
+       • Team lead with a team of 3 people where we developed a wireless sensor that could be deployed remotely. \newline
+       • The team implemented a DC/DC converter to power the wireless sensor node via solar energy.\newline
+       • Individually developed of the mobile GUI for the sensor, which was used to display the analog temperature readings taken by the sensor as digital readings. \newline
+       • Contributed towards testing and debugging process.
+}
+    {}
+    
+\work{Graphic Mobile Banking Application \newline Aug 2020 - Dec 2020}
+    {Skills used: C++, Qt, Git, Vagrant}%
+    {   
+         • A full stack app development which demonstrates my ability to work with back-end and the front-end. \newline
+         • Used Qt cross platform for front-end development, made a GUI for a fully functional ATM.
+         \newline
+         • Worked with multi thread application so two processes were handled simultaneously for the back-end structure. \newline
+         • Included various features like Open and Close Account, Withdraw, Deposit with pin protection. \newline
+         • Incorporated a very wide range of error checking and thorough testing for TUI as well as the GUI.
+    }
+    {}
+    
+\vspace{-1.5cm}
+
+\section{\faPencil}{SELECTED EXPERIENCES}
+\vspace{-0.2cm}
+\work{Tata Consultancy Services \newline Jun 2020 - Sep 2020}
+    {Software Engineering Intern}%
+    {
+        • Did 2 case studies which had to be presented to the clients. \newline
+        • Performed initial client analysis and assessment to begin research process. \newline
+        • Worked on approach towards the development of new block-chain technologies and completed market research. \newline
+        • Managed to get a new client for the company.
+}
+    {}
+
+\work{CDAC \newline Dec 2019 - Jan 2020}
+    {Software Development Intern}
+    { 
+        • Was Part of the SQL team to perform testing for different applications where I assisted with network design and optimization & ran tests to ensure they work properly. \newline
+        • Got Trained and worked with SQL and NoSQL. \newline
+        • Used these database for development of reports, using advanced queries to achieve reporting requirements. \newline
+        • Reduced the manual entry of queries by 40\%, by creating documentation addressing common technical issues.
+}
+    {}
+    
+\work{Follett \\ Sep 2018 - Nov 2019}%
+    {Hardware Technician and Sales Service Representative}%
+    {
+}
+    {}
+
+\vspace{-0.6cm}
+    
+\work{BlackStone \\ Jun 2018 - Aug 2018}%
+    {Software Intern}%
+    {
+        • The summer training was successfully completed with the company's Knowledge Services Division. \newline
+        • Here I received basic training in R and Python. \newline
+        • Then was given the role write test cases for the beta releases for debugging the existing issues. \newline
+        • Supported previous model releases by analyzing and suggesting code fixes for minor existing software problems.
+    }
+    {}
+%\section{\faStar}{CERTIFICATIONS}
+%\work{Artificial Intelligence and Machine Learning using Python May-July 2019}%
+%    {NSUT}%
+%    {Course based on AI and Machine Learning which covered NumPy, Pandas, Logistics Regression, Artificial Neural Networks, Deep Learning Frameworks and TensorFlow.}
+%    {}
+    
+%\work{Adobe Photoshop / Graphic designing July 2017}%
+%    {}%
+%    {Three months course from MAAC, a high-end 3D animation and VFX brand of Aptech.}
+%    {}
+\end{multicols}
+\end{document}
